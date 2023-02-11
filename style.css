@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #030ffc;
+	font-family: cursive;
+}
+
+h1{
+	font-size: 40px;
+}
+
+.container{
+	width: 80%;
+	max-width: 450px;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 3px 3px 8px black;
+	padding: 20px;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+button.btn{
+	padding: 10px 20px;
+	font-size: 18px;
+	background-color: #030ffc;
+	margin-bottom: 20px;
+	color: white;
+}
+
+button.btn:hover{
+	opacity: 0.7;
+	transition: .4s ease;
+}
+
+button.btn:active{
+	transform: scale(.95);
+}
+
+button.btn:disabled{
+	background-color: lightgray;
+	cursor: not-allowed;
+}
+
+.anime-container{
+	display: none;
+}
+
+.anime-container img{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	border-top: 8px solid #030ffc;
+	border-left: 8px solid #030ffc;
+}
+
+.anime-container p{
+	width: 300px;
+	height: 30px;
+	background-color: #030ffc;
+	padding: 10px 20px;
+	font-size: 18px;
+	margin: 20px auto;
+	color: white;
+	display: none;
+}
+
